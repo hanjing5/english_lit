@@ -34,7 +34,7 @@ def read_file(fname):
     '''
     content = []
     if fname == LICENSE_FNAME or fname == OWNER_FNAME:
-        with open(fname, 'rb') as csvfile:
+        with open(fname) as csvfile:
             bls = csv.reader(csvfile, delimiter=',')
             for bl in bls:
                 content.append(bl)
