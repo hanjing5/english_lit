@@ -1,0 +1,5 @@
+Our system currently take in very little data and only surfaces tweets of a snapshot in time. That is, on average, 6000 tweets are sent out every second around the world and our system only captures a small portion of that. There exists the possiblity of sampling bias in our dataset. We don't know if the time of day affects the sentiment toward a company. Maybe users are more neutral towards amazon at after midnight since no shoppings are occuring. Since we have limited resource, we should
+expand our system to capture random snapshots of tweets and their sentiment at random times of day and correlate that sentiment with historical prices. This way we
+can explore whether mood drives stock prices or are the two unrelated.
+
+Another way is to uncover major accounts that shift stock prices. There are high impact users who can change stock movement given their twitter. Thus, these users's tweets should be weighed more in our sentiment analysis.
